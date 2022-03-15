@@ -1,0 +1,106 @@
+
+/* Declaring custom properties */
+* {
+box-sizing: border-box;
+text-align: center
+border: thin solid white;
+}
+#header ul li {
+  display: inline-block;
+  list-style: none;
+  background-color: #orange;
+
+}
+#menu {
+  background-color: black;
+  color: white;
+
+}
+#menu > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+#menu > ul > li {
+  display: inline-block;
+  padding: 0.99em;
+  text-align: left;
+}
+#E-Learing{
+display: inline-block;
+padding: 6em;
+text-align: left;
+background-color: yellow;
+top: 1em;
+}
+.izquierda{
+  float: left;
+  text-align: left;
+}
+#banner {
+  position: relative;
+}
+
+.texto-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#banner img {
+  width: 100%;
+  max-width: 100%;
+}
+#servicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.service-column h2, .service-column h4  {
+text-align: center;
+}
+.tcapa h2 {
+  text-align: center;
+}
+#terceracapa h2 {
+  background-color: white;
+}
+#terceracapa-dos >ul {
+  background-color: black;
+  color: white;
+}
+#terceracapa-dos > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+#terceracapa-dos > ul > li {
+  display: inline-block;
+  text-align: left;
+}
+.tcapa-dos {
+text-align: left;
+}
+.service-column > img{
+display: block;
+}
+
+#tcapa-l{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+.tcapa-franjas > img {
+display: grid;
+text-align: center;
+width: 120px;
+height: 120px;
+}
+.tcapa-franjas h2, .tcapa-franjas h4{
+  text-align: center;
+}
+#cuartacapa > img {
+  width: 100%;
+  max-width: 100%;
+}
