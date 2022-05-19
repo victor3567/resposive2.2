@@ -56,7 +56,7 @@ top: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.service-column h2, .service-column h4  {
+.service-column {
 text-align: center;
 }
 .tcapa h2 {
@@ -82,9 +82,6 @@ text-align: center;
 .tcapa-dos {
 text-align: left;
 }
-.service-column > img{
-display: block;
-}
 
 #tcapa-l{
   display: grid;
@@ -92,15 +89,50 @@ display: block;
 
 }
 .tcapa-franjas > img {
-display: grid;
-text-align: center;
 width: 120px;
 height: 120px;
 }
-.tcapa-franjas h2, .tcapa-franjas h4{
+.tcapa-franjas  {
   text-align: center;
 }
+
 #cuartacapa > img {
   width: 100%;
   max-width: 100%;
+}
+.columnas {
+  display: grid;
+  padding: 10px;
+  background-color: black;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#footer {
+background-color: black;
+width: 100%;
+color: gray ;
+padding: 100%:
+ }
+
+ .footer-columns {
+   padding: 100%;
+   display: grid;
+ }
+
+ #footer h6 {
+   font-size: 1em;
+ }
+
+ #footer ul {
+   font-size: 0.8em;
+ }
+ .footer-column ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+.footer-column iframe {
+  width: 400px;
+  height: 200px;
 }
